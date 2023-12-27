@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "rootDir": "./src",
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

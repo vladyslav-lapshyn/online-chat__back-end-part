@@ -1,0 +1,18 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true,
+      "dynamicImport": false
+    },
+    "transform": {
+      "legacyDecorator": false,
+      "decoratorMetadata": true
+    }
+  },
+  "env": {
+    "targets": {
+      "node": 20
+    }
+  }
+}
