@@ -3,6 +3,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
+import { initDB } from './utils/initDB.js';
 
 dotenv.config();
 
@@ -12,6 +13,8 @@ const corsOrigin = {
 
 export const createServer = () => {
   const app = express();
+
+  initDB();
 
   app.use(cors(corsOrigin));
 
